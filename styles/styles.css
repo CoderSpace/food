@@ -1,0 +1,31 @@
+nav {
+     list-style-type: none;
+     padding: 1%;
+     text-align:center;
+     display: block;
+     padding-top: 20px;
+     margin:0%;
+     position:fixed;
+     width:100%;
+     z-index:1;
+     background-color:hsla(200,0%,0%,.7);
+}
+     
+
+nav a {
+  text-decoration: none;
+  color: gray;
+  padding: 2%;
+  font-family: 'Yantramanav', sans-serif;
+}
+
+
+/* 5. style nav-item in desktop view*/
+
+.nav-item{
+  display:inline-block;
+  margin-right:5px;
+  padding-left: 3%;
+  padding-right: 3%;
+  white-space: nowrap;
+}
