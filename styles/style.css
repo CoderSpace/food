@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway+Dots');
+
+
+h1{
+    font-family: 'Raleway Dots', cursive;
+      text-align:center;
+      color:grey;
+      margin-bottom:50em;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+body{
+    margin:0;
+}
