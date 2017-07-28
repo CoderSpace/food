@@ -1,0 +1,160 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+
+/*html, body, div, span, applet, object, iframe,*/
+/*h1, h2, h3, h4, h5, h6, p, blockquote, pre,*/
+/*a, abbr, acronym, address, big, cite, code,*/
+/*del, dfn, em, img, ins, kbd, q, s, samp,*/
+/*small, strike, strong, sub, sup, tt, var,*/
+/*b, u, i, center,*/
+/*dl, dt, dd, ol, ul, li,*/
+/*fieldset, form, label, legend,*/
+/*table, caption, tbody, tfoot, thead, tr, th, td,*/
+/*article, aside, canvas, details, embed, */
+/*figure, figcaption, footer, header, hgroup, */
+/*menu, nav, output, ruby, section, summary,*/
+/*time, mark, audio, video {*/
+/*	margin: 0;*/
+/*	padding: 0;*/
+/*	border: 0;*/
+/*	font-size: 100%;*/
+/*	font: inherit;*/
+/*	vertical-align: baseline;*/
+/*}*/
+/* HTML5 display-role reset for older browsers */
+/*article, aside, details, figcaption, figure, */
+/*footer, header, hgroup, menu, nav, section {*/
+/*	display: block;*/
+/*}*/
+/*body {*/
+/*	line-height: 1;*/
+/*}*/
+/*ol, ul {*/
+/*	list-style: none;*/
+/*}*/
+/*blockquote, q {*/
+/*	quotes: none;*/
+/*}*/
+/*blockquote:before, blockquote:after,*/
+/*q:before, q:after {*/
+/*	content: '';*/
+/*	content: none;*/
+/*}*/
+/*table {*/
+/*	border-collapse: collapse;*/
+/*	border-spacing: 0;*/
+/*}*/
+
+
+
+body {
+    background-color: grey;
+}
+
+.menu {
+    border: solid;
+    box-sizing: border-box;
+    border-radius: 2%;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: auto;
+    width: 95%;
+    height: 10em;
+}
+
+
+
+
+
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+}
+
+.slick-dots {
+  text-align: center;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+.slick-dots li {
+  display: inline-block;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.slick-dots li.slick-active button {
+  background-color: black;
+}
+.slick-dots li button {
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  background-color: #999;
+  border: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.slick-dots li :hover {
+  background-color: black;
+}
+
+/* Custom Arrow */
+.prev {
+  color: #999;
+  position: absolute;
+  top: 38%;
+  left: -1em;
+  font-size: 1.5em;
+}
+.prev:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.next {
+  color: #999;
+  position: absolute;
+  top: 38%;
+  right: -1em;
+  font-size: 1.5em;
+}
+.next:hover {
+  cursor: pointer;
+  color: black;
+}
+
+@media screen and (max-width: 800px) {
+  .next {
+    display: none !important;
+  }
+}
+
+.container {
+    /*border: solid;*/
+}
+
+.arw {
+    /*border: solid;*/
+}
+
+.slick-slide {
+    height:auto;
+}
+
+.slick-dots button:hover {
+    cursor: pointer;
+    color: black;
+}
