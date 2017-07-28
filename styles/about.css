@@ -16,6 +16,12 @@
     height:400px;
 }
 
+.space{
+    margin:auto;
+}
+.display{
+    display:block;
+}
 
 
 @media (min-width:768px){
