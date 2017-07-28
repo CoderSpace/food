@@ -1,10 +1,10 @@
-.Grid {
+.grid {
   display: flex;
   padding-left:207px;
   
 }
 
-.Grid-cell {
+.grid-cell {
   flex: 1;
 }
 
