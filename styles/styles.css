@@ -64,7 +64,7 @@ h2 {
 
 
 p {
-  font-size:1.5em;
+  font-size:1.3em;
   text-align:center;
   color:white;
   font-family: 'Yantramanav', sans-serif;
@@ -90,6 +90,13 @@ footer {
 
 /*inside the footer*/
 
+.icons {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
 .contact {
     border: solid white;
 }
@@ -101,11 +108,16 @@ footer {
 
 
 
+
 .foot {
-   display: inline-block;
-   list-style: none;
-   border: solid;
-   padding-top:10%;
+    list-style: none;
+    border: solid;
+    padding-top: 10%;
+    height: 95%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .social {
