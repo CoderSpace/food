@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <link href="styles/styles.css" rel="stylesheet" type="text/css">
-</head>
-
-<body>
-    <header>
-        <nav>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="index.js"></script>
+        <script src="https://use.fontawesome.com/c1105c0217.js"></script>
+        <link rel="stylesheet" href="styles/style.css" type="text/css" />
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" id="nav-toggle"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></button>
+            <ul class="navbar nav-items mobile-nav-hidden" id="nav-items">
+         <nav>
             <!--<button class="nav-toggle" id="nav-toggle"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>-->
 
             <ul class="nav-items mobile-nav-hidden" id="nav-items">
@@ -16,16 +20,25 @@
                 <li class="nav-item"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-    </header>
-
-
-    <main>
-        <h1></h1>
-    </main>
-
-    <footer>
-
-        <div class="icons">
+              </header>
+        <main>
+         <h1> Order Online</h1>
+         <form> First and Last Name:<br>
+         <input type="text" name="First and Last Name"><br>
+        <select name="choice">
+            <option value="pick up">Pick up</option>
+           <option value="Delivery">Delivery</option>
+            </select>
+         
+         <p>Order:<br></p>
+        
+         <select name="food">
+             <option value="food1">Food1</option>
+         </select>
+         </form>
+        </main>
+        <footer>
+            <div class="icons">
             <ul class="foot">
 
                 <li><a class="social twitter" href="index.html"><span class="social-text ">Twitter</span></a></li>
@@ -52,10 +65,5 @@
             </p>
         </div>
 
-
-    </footer>
-
-</body>
-
-
-</html>
+        </footer>
+    </body>
