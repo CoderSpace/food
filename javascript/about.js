@@ -5,6 +5,8 @@ function myFunction(sentence) {
     } else {
         x.style.display = 'none';
     }
+    
+    
 }
 
 
