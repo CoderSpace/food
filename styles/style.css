@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway+Dots');
+
+
+.orderonline{
+    font-family: 'Raleway Dots', cursive;
+      text-align:center;
+      color:grey;
+      padding-top: 2%;
+    font-size: 5em;
+}
+
+
+/*.nav a{*/
+/*    text-decoration: none;*/
+/*}*/
+
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding-bottom: 20em;
+}
+
+.choice{
+    margin: 100px;}
+
+.push{
+height:200px;
+width:200px;
+}
+
+input[type=text]{
+    width: 100%;
+}
+
+choice{
+    font-size: larger;
+}

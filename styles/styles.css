@@ -57,9 +57,10 @@ h1 {
     font-family: 'Abel', sans-serif;
     text-align:center; 
     font-size: 3em;
+    text-align: center;
 }
 
-h2 {
+h2{
     font-family: 'Abel', sans-serif;
     font-size: 3em;
     color:white;
@@ -165,3 +166,4 @@ span {
 .facebook{
    background-image: url("../images/facebook.png");
 }
+
