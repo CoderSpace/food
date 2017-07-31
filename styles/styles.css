@@ -98,11 +98,11 @@ footer {
 
 
 .contact {
-    border: solid white;
+    /*border: solid white;*/
 }
 
 .hours {
-    border: solid white;
+    /*border: solid white;*/
 }
 
 
@@ -111,7 +111,7 @@ footer {
 
 .foot {
     list-style: none;
-    border: solid;
+    /*border: solid;*/
     padding-top: 10%;
     height: 95%;
     margin: 0;
