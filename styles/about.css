@@ -96,6 +96,30 @@ p {
     width: 40%;
     margin: auto;
 }
+.nav-toggle{
+    display:none;
+}
+
+@media (max-width : 650px){
+  
+.nav-toggle{
+        display:block;
+    
+    }
+li {
+        display:block;
+        padding-top:25px;
+        margin-left:-15%;
+    }
+
+.mobile-nav-hidden{
+    display:none;
+}
+
+.nav-item{
+    display:block;
+}
+}
 
 footer {
     display: flex;
