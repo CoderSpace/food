@@ -99,6 +99,10 @@ p {
 .nav-toggle{
     display:none;
 }
+main{
+    margin:5%;
+    padding:5%;
+}
 
 @media (max-width : 650px){
   
