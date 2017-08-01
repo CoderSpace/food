@@ -3,10 +3,12 @@
     padding-left: 8%;
     padding-top: 3%;
     padding-bottom: 3%;
+     flex-wrap:wrap;
 }
 
 .grid-cell {
     flex: 1;
+   
 }
 
 .banner {
@@ -23,24 +25,6 @@
 
 .display {
     display: none;
-}
-
-@media (min-width:768px) {
-    .Grid--fit>.Grid-cell {
-        flex: 1;
-    }
-    .Grid--full>.Grid-cell {
-        flex: 0 0 100%;
-    }
-    .Grid--1of2>.Grid-cell {
-        flex: 0 0 50%
-    }
-    .Grid--1of3>.Grid-cell {
-        flex: 0 0 33.3333%
-    }
-    .Grid--1of4>.Grid-cell {
-        flex: 0 0 25%
-    }
 }
 
 html {
@@ -144,7 +128,6 @@ footer {
 
 .foot {
     list-style: none;
-    border: solid;
     padding-top: 10%;
     height: 95%;
     margin: 0;
