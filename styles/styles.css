@@ -144,3 +144,8 @@ span {
 .facebook {
     background-image: url("../images/facebook.png");
 }
+
+main {
+    padding:5%;
+    margin:5%;
+}
