@@ -36,7 +36,12 @@ nav a {
     padding: 2%;
     font-family: 'Yantramanav', sans-serif;
 }
+nav a:hover {
+        text-decoration: none;
+        color:white;
+        
 
+}
 
 /* 5. style nav-item in desktop view*/
 
@@ -61,7 +66,7 @@ h2 {
 }
 
 p {
-    font-size: 1.3em;
+    font-size: 1.1em;
     text-align: center;
     color: white;
     font-family: 'Yantramanav', sans-serif;
@@ -88,6 +93,7 @@ footer {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .contact {
