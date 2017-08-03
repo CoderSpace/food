@@ -28,7 +28,7 @@ nav a {
     font-family: 'Yantramanav', sans-serif;
 }
 
-.grid {
+.grid{
     display: flex;
     padding-left: 8%;
     padding-top: 3%;
@@ -36,9 +36,16 @@ nav a {
      flex-wrap:wrap;
 }
 
-.grid-cell {
+.grid-cell, .item {
     flex: 1;
-   
+}
+
+.menu{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:center;
+    margin-top:.8%;
 }
 
 .banner {
