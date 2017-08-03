@@ -70,6 +70,8 @@ html {
 
 body {
     margin:0%;
+    /*bottom:0;*/
+    /*position:relative;*/
 }
 
 nav a {
@@ -139,13 +141,14 @@ footer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 100%;
     border-top: solid 4px black;
     margin: 0%;
     background-color: hsla(200, 0%, 0%, .7);
     bottom: 0;
     color: white;
     padding:2%;
+    /*position:absolute;*/
+    width:100%;
 }
 
 footer a {
