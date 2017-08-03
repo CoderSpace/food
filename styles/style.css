@@ -28,6 +28,10 @@ nav a {
     font-family: 'Yantramanav', sans-serif;
 }
 
+nav a:hover {
+    color:white;
+}
+
 .grid {
     display: flex;
     padding-left: 8%;
