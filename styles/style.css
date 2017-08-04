@@ -34,6 +34,7 @@ nav a {
     padding-top: 3%;
     padding-bottom: 3%;
      flex-wrap:wrap;
+     justify-content:evenly;
 }
 
 .grid-cell, .item {
@@ -63,9 +64,9 @@ nav a {
     margin: auto;
 }
 
-.display {
-    display: none;
-}
+/*.display {*/
+/*    display: none;*/
+/*}*/
 
 html {
     background: url("../images/whiter.jpeg")center center fixed;
@@ -281,7 +282,8 @@ form{
 }
 
 button{
-    height: 10%
+    height: 10%;
     width: 10%;
+    
 }
 
