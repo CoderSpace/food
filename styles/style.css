@@ -36,15 +36,16 @@ nav a {
      flex-wrap:wrap;
 }
 
-.grid-cell, .item {
+.grid-cell, .items{
     flex: 1;
+    margin-bottom:3.3%;
 }
 
 .menu{
     display:flex;
     flex-wrap:wrap;
-    justify-content:space-around;
-    align-items:center;
+    justify-content:evenly;
+    align-content:center;
     margin-top:.8%;
 }
 
@@ -238,7 +239,7 @@ span {
 }
 
 main {
-    padding:7%;
+    padding-top:7%;
 }
 
 .orderonline{
@@ -285,3 +286,6 @@ button{
     width: 10%;
 }
 
+.noI {
+    width: 70%;
+}
