@@ -37,7 +37,7 @@ nav a {
      justify-content:evenly;
 }
 
-.grid-cell, .item {
+.grid-cell{
     flex: 1;
 }
 
@@ -143,6 +143,15 @@ li {
 .nav-item{
     display:block;
 }
+.slideshow{
+    display:none;
+}
+.map{
+    display:none;
+}
+.mapinfo{
+    position:relative;
+    margin-left:25%;
 }
 
 footer {
