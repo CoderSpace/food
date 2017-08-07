@@ -48,6 +48,12 @@ nav a:hover {
     margin-bottom:3.3%;
 }
 
+.items{
+    flex:1;
+    flex-wrap:wrap;
+    padding-left:3%;
+}
+
 .menu{
     display:flex;
     flex-wrap:wrap;
@@ -159,7 +165,10 @@ li {
 }
 .cmedia{
     display:none;
-}    
+} 
+.menu{
+    flex-direction:column;
+}
 }
 
 footer {
@@ -235,6 +244,7 @@ table {
 
 main {
     padding-top:7%;
+    padding-bottom:4%;
 }
 
 .orderonline{
