@@ -153,6 +153,10 @@ li {
     position:relative;
     margin-left:25%;
 }
+.cmedia{
+    display:none;
+}    
+}
 
 footer {
     display: flex;
