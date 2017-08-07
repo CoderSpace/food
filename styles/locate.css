@@ -1,0 +1,52 @@
+
+.locate {
+    display: flex;   
+    border: solid;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 90%;
+    margin: auto;
+    padding: 2%;
+}
+
+.mapinfo {
+    border: solid;
+    box-sizing: border-box;
+    border-radius: 5%;
+    width: 50%;
+    background-color:white;
+}
+
+.1871 {
+    
+}
+
+.l {
+    width:70%;
+    margin: auto;
+    border-width: 100%;
+}
+
+.info {
+    width: 90%;
+    margin: auto;
+    color: black;
+}
+
+.map {
+    border: solid;
+    box-sizing: border-box;
+    border-radius: 5%;
+    overflow: hidden;
+    height: 600px;
+    width: 50%;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.line {
+    border-bottom: 2px dashed ;
+} 
+@media 

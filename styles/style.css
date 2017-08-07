@@ -38,11 +38,22 @@ nav a:hover {
     padding-top: 3%;
     padding-bottom: 3%;
      flex-wrap:wrap;
+     justify-content:evenly;
 }
 
-.grid-cell {
+
+
+.grid-cell{
     flex: 1;
-   
+    margin-bottom:3.3%;
+}
+
+.menu{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:evenly;
+    align-content:center;
+    margin-top:.8%;
 }
 
 .banner {
@@ -57,9 +68,9 @@ nav a:hover {
     margin: auto;
 }
 
-.display {
-    display: none;
-}
+/*.display {*/
+/*    display: none;*/
+/*}*/
 
 html {
     background: url("../images/whiter.jpeg")center center fixed;
@@ -136,6 +147,15 @@ li {
 .nav-item{
     display:block;
 }
+.slideshow{
+    display:none;
+}
+.map{
+    display:none;
+}
+.mapinfo{
+    position:relative;
+    margin-left:25%;
 }
 
 footer {
@@ -210,7 +230,7 @@ table {
 
 
 main {
-    padding:7%;
+    padding-top:7%;
 }
 
 .orderonline{
@@ -255,6 +275,7 @@ form{
 button{
     height: 10%;
     width: 10%;
+    
 }
 
 
@@ -262,4 +283,8 @@ button{
     order: 2;
     border:solid;
     width:30%;
+  }
+  
+.noI {
+    width: 70%;
 }
