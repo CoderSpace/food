@@ -28,21 +28,33 @@ nav a {
     font-family: 'Yantramanav', sans-serif;
 }
 
+<<<<<<< HEAD
 nav a:hover {
     color:white;
 }
 
 .grid {
+=======
+.grid{
+>>>>>>> 2e9412f1a20e1d930d0e35c8897ffc88103021ba
     display: flex;
     padding-left: 8%;
     padding-top: 3%;
     padding-bottom: 3%;
      flex-wrap:wrap;
+     justify-content:evenly;
 }
 
-.grid-cell {
+.grid-cell{
     flex: 1;
-   
+}
+
+.menu{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:center;
+    margin-top:.8%;
 }
 
 .banner {
@@ -60,9 +72,9 @@ nav a:hover {
     margin: auto;
 }
 
-.display {
-    display: none;
-}
+/*.display {*/
+/*    display: none;*/
+/*}*/
 
 html {
     background: url("../images/whiter.jpeg")center center fixed;
@@ -139,6 +151,15 @@ li {
 .nav-item{
     display:block;
 }
+.slideshow{
+    display:none;
+}
+.map{
+    display:none;
+}
+.mapinfo{
+    position:relative;
+    margin-left:25%;
 }
 
 footer {
@@ -278,6 +299,8 @@ form{
 }
 
 button{
-    height: 10%
+    height: 10%;
     width: 10%;
+    
 }
+
