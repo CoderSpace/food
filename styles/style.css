@@ -33,7 +33,6 @@ nav a:hover {
 }
 
 .grid {
-<<<<<<< HEAD
    display: flex;
    padding-left: 8%;
    padding-top: 3%;
@@ -52,7 +51,6 @@ nav a:hover {
    margin-right: 0px;
    width: 100%;
    height: 400px;
-=======
     display: flex;
     padding-left: 8%;
     padding-top: 3%;
@@ -76,14 +74,7 @@ nav a:hover {
     margin-top:.8%;
 }
 
-.banner {
-    margin-top: -25px;
-    margin-left: 0px;
-    margin-right: 0px;
-    width: 100%;
-    height: 400px;
->>>>>>> master
-}
+
 
 .space {
    margin: auto;
@@ -93,13 +84,7 @@ nav a:hover {
    display: none;
 }
 
-html {
-   background: url("../images/whiter.jpeg")center center fixed;
-   background-repeat: no-repeat;
-   background-size: cover;
-   width: 100%;
-   height: 100%;
-}
+
 
 body {
    margin:0%;
@@ -126,15 +111,10 @@ nav a {
 }
 
 h1 {
-<<<<<<< HEAD
    font-family: 'Abel', sans-serif;
    text-align: center;
    font-size: 2em;
-=======
-    font-family: 'Abel', sans-serif;
-    text-align: center;
-    font-size: 2em;
->>>>>>> master
+
 }
 
 h2 {
@@ -174,14 +154,14 @@ li {
 .nav-item{
    display:block;
 }
+
 }
 .cmedia{
     display:none;
 }    
-}
+
 
 footer {
-<<<<<<< HEAD
    display: flex;
    flex-wrap: wrap;
    border-top: solid 4px black;
@@ -192,18 +172,6 @@ footer {
    /*position:absolute;*/
    width:100%;
    justify-content:space-around;
-=======
-    display: flex;
-    flex-wrap: wrap;
-    border-top: solid 4px black;
-    margin: 0%;
-    background-color: hsla(200, 0%, 0%, .7);
-    bottom: 0;
-    color: white;
-    /*position:absolute;*/
-    width:100%;
-    justify-content:space-around;
->>>>>>> master
 }
 
 footer a {
@@ -212,11 +180,7 @@ footer a {
 }
 
 footer a:hover {
-<<<<<<< HEAD
- color:white;
-=======
   color:white;
->>>>>>> master
 }
 
 table {
@@ -228,7 +192,6 @@ table {
 /*inside the footer*/
 
 .icons {
-<<<<<<< HEAD
    display: flex;
    justify-content: space-around;
    flex-direction: column;
@@ -237,26 +200,18 @@ table {
    width:30%;
 }
 .contact {
-   border:solid;
-   width:30%;
-=======
+    border:solid;
+    width:30%;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     order:1;
-    border:solid;
-    width:30%;
 }
-.contact {
-    border:solid;
-    width:30%;
->>>>>>> master
-}
+
 
 
 
 .foot {
-<<<<<<< HEAD
    list-style: none;
    height: 95%;
    margin: 0;
@@ -278,39 +233,12 @@ table {
    overflow: hidden;
    text-decoration: none;
    padding: 0;
-=======
-    list-style: none;
-    height: 95%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin:auto;
-}
-
-.social {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    border-radius: 40%;
-    border-color: white;
-    /*background-color: green;*/
-    background-size: 100%;
-    text-align: center;
-    overflow: hidden;
-    text-decoration: none;
-    padding: 0;
->>>>>>> master
 }
 
 
 
 main {
-<<<<<<< HEAD
-   padding:7%;
-=======
     padding-top:7%;
->>>>>>> master
 }
 
 .orderonline{
@@ -359,11 +287,6 @@ button{
 
 
 .hours {
-<<<<<<< HEAD
-   order: 2;
-   border:solid;
-   width:30%;
-=======
     order: 2;
     border:solid;
     width:30%;
@@ -371,5 +294,4 @@ button{
   
 .noI {
     width: 70%;
->>>>>>> master
 }
