@@ -43,7 +43,11 @@
 
    .grid-cell {
        flex: 1;
-
+   }
+   
+   .mydiv{
+       text-align:center;
+       display:block;
    }
 
    .banner {
