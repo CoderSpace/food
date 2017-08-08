@@ -211,12 +211,12 @@ table {
    display: flex;
    justify-content: space-around;
    flex-direction: column;
-   order:1;
-   border:solid;
+   order:2;
+   /*border:solid;*/
    width:30%;
 }
 .contact {
-    border:solid;
+    /*border:solid;*/
     width:30%;
     display: flex;
     justify-content: space-around;
@@ -307,7 +307,7 @@ button{
 
 .hours {
     order: 2;
-    border:solid;
+    /*border:solid;*/
     width:30%;
   }
   
