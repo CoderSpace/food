@@ -13,7 +13,7 @@
     box-sizing: border-box;
     /*border-radius: 5%;*/
     width: 50%;
-    background-color:white;
+    background-color: rgba(232,232,232, 0.5);
 }
 
 /*.1871 {*/
@@ -28,8 +28,13 @@
 
 .info {
     width: 90%;
-    margin: auto;
+    margin: initial;
     color: black;
+    text-align: left;
+    margin-left: 1em;
+    font-size: 2em;
+    margin-bottom: 5em;
+    line-height: 1.5em;
 }
 
 .map {
@@ -64,3 +69,15 @@ iframe {
     background-color: rgba(0, 0, 0, 0.6);
 }
 }
+
+.map-button {
+    background-color: grey;
+    width: 82px;
+    /*margin-left: 1.5em;*/
+    padding: 1em;
+    border: solid 2px;
+    margin: auto;
+    margin-top: 1.5em;
+    border-radius: 5%;
+}
+
