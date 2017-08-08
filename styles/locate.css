@@ -23,10 +23,14 @@
 .l {
     width:70%;
     margin: auto;
-
     border-width: 100%;
 }
 
+.info {
+    width: 90%;
+    margin: auto;
+    color: black;
+}
 
 .map {
     border: solid;
