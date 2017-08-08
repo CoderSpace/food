@@ -28,9 +28,6 @@ nav a {
     font-family: 'Yantramanav', sans-serif;
 }
 
-nav a:hover {
-    color:white;
-}
 
 .grid {
     display: flex;
@@ -41,11 +38,21 @@ nav a:hover {
      justify-content:evenly;
 }
 
-
+.active a{
+    color:mediumpurple
+    ;
+}
 
 .grid-cell{
     flex: 1;
     margin-bottom:3.3%;
+}
+
+.items{
+    flex:1;
+    flex-wrap:wrap;
+    padding-left:4.3%;
+    padding-bottom:1.9%;
 }
 
 .menu{
@@ -127,6 +134,13 @@ p {
 .nav-toggle{
     display:none;
 }
+.cater{
+    margin:auto;
+    display:block;
+}
+.myslides{
+    width:40%;
+}
 
 @media (max-width : 700px){
   
@@ -152,10 +166,13 @@ li {
 }
 
 }
-.cmedia{
-    display:none;
-}    
 
+
+.menu{
+    flex-direction:column;
+    justify-content:center;
+}
+}
 
 footer {
     display: flex;
@@ -230,6 +247,7 @@ table {
 
 main {
     padding-top:7%;
+    padding-bottom:4%;
 }
 
 .orderonline{
