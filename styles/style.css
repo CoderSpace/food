@@ -149,12 +149,7 @@ li {
 .slideshow{
     display:none;
 }
-.map{
-    display:none;
-}
-.mapinfo{
-    position:relative;
-    margin-left:25%;
+
 }
 
 footer {
