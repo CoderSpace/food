@@ -173,6 +173,20 @@ li {
 .menu{
     flex-direction:column;
     justify-content:center;
+    
+}
+
+body {
+  /*padding:7%;*/
+
+}
+
+main {
+    padding:7%;
+}
+.cmedia {
+        padding:7%;
+
 }
 }
 
