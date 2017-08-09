@@ -270,6 +270,8 @@ table {
 main {
     padding-top:7%;
     padding-bottom:4%;
+    width: 80%;
+    margin: auto;
 }
 
 .orderonline{
@@ -325,4 +327,9 @@ button{
   
 .noI {
     width: 70%;
+}
+
+.order {
+    width: 80%;
+    margin: auto;
 }
