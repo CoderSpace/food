@@ -148,6 +148,11 @@ p {
 .myslides{
     width:40%;
 }
+.order {
+    width: 80%;
+    margin: auto;
+}
+
 
 @media (max-width : 700px){
  
@@ -174,6 +179,16 @@ li {
     flex-direction:column;
     justify-content:center;
 }
+
+.order {
+    width: 100%;
+    margin: auto;
+}
+
+.embed form {
+    padding: 7% !important;
+}
+
 }
 
 
@@ -315,7 +330,3 @@ button{
     width: 70%;
 }
 
-.order {
-    width: 80%;
-    margin: auto;
-}
