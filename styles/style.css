@@ -150,6 +150,11 @@ p {
 .myslides {
     width: 40%;
 }
+.order {
+    width: 80%;
+    margin: auto;
+}
+
 
 footer {
     display: flex;
@@ -174,6 +179,23 @@ footer {
     order: 1;
 }
 
+
+
+.menu{
+    flex-direction:column;
+    justify-content:center;
+}
+
+.order {
+    width: 100%;
+    margin: auto;
+}
+
+.embed form {
+    padding: 7% !important;
+}
+
+}
 
 
 .footerh1 {
@@ -353,7 +375,3 @@ button {
     width: 70%;
 }
 
-.order {
-    width: 80%;
-    margin: auto;
-}
