@@ -6,6 +6,7 @@ html {
     background-size: cover;
     width: 100%;
     height: 100%;
+    color:white;
 }
 
 nav {
@@ -148,9 +149,10 @@ p {
     display: block;
 }
 
-.myslides {
-    width: 40%;
+.myslides{
+    width:85%;
 }
+
 .mydiv{
     display:flex;
     flex-wrap: wrap;
@@ -265,6 +267,9 @@ footer {
         display: block;
     }
 
+.slideshow{
+    display:none;
+}
 
     .menu {
         flex-direction: column;
