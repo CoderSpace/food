@@ -203,6 +203,10 @@ footer {
     font-size: 2em;
 }
 
+.footerp {
+    font-size:1em;
+}
+
 .social {
     display: inline-block;
     width: 100px;
@@ -304,6 +308,7 @@ footer {
     }
     .icons {
         width: 100%;
+        order:3;
     }
     
 }
