@@ -35,7 +35,7 @@ nav a:hover {
 
 .grid {
     display: flex;
-    padding-left: 8%;
+    padding-left: 5.6%;
     padding-top: 3%;
     padding-bottom: 3%;
     flex-wrap: wrap;
@@ -43,6 +43,7 @@ nav a:hover {
 
 .grid-cell {
     flex: 1;
+   
 
 }
 
@@ -150,6 +151,10 @@ p {
 .myslides {
     width: 40%;
 }
+.mydiv{
+    display:flex;
+    flex-wrap: wrap;
+}
 .order {
     width: 80%;
     margin: auto;
@@ -181,11 +186,6 @@ footer {
 
 
 
-.menu{
-    flex-direction:column;
-    justify-content:center;
-}
-
 .order {
     width: 100%;
     margin: auto;
@@ -195,7 +195,6 @@ footer {
     padding: 7% !important;
 }
 
-}
 
 
 .footerh1 {
@@ -270,7 +269,10 @@ footer {
     .menu {
         flex-direction: column;
         justify-content: center;
-
+    }
+    
+    .grid{
+        padding-left:1.5%;
     }
 
     body {
