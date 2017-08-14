@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway+Dots');
 
 html {
-    background: url("../images/brownwall.jpg")center center fixed;
+    background: #2F2D2E;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
