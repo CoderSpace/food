@@ -19,12 +19,13 @@ nav {
     position: fixed;
     width: 100%;
     z-index: 1;
-    background-color: hsla(200, 0%, 0%, .7);
+    background-color:black;
+    box-shadow:0 0 20px 0;
 }
 
 nav a {
     text-decoration: none;
-    color: gray;
+    color: tomato;
     padding: 2%;
     font-family: 'Yantramanav', sans-serif;
 }
@@ -32,6 +33,8 @@ nav a {
 nav a:hover {
     color: white;
 }
+
+
 
 
 .grid {
@@ -162,9 +165,9 @@ p {
 footer {
     display: flex;
     flex-wrap: wrap;
-    border-top: solid 4px black;
+    border-top: solid 4px white;
     margin: 0%;
-    background-color: hsla(200, 0%, 0%, .7);
+    background-color:black;
     bottom: 0;
     color: white;
     /*position:absolute;*/
@@ -173,13 +176,33 @@ footer {
 
 }
 
+.day {
+    text-align:left;
+}
+
+td .days {
+    text-align:left;
+}
+
+.hourz {
+     text-align:right;
+
+}
+
+td .time {
+         text-align:right;
+
+}
+
+
+
 .contact {
     /*border:solid;*/
     width: 30%;
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
     order: 1;
+    line-height:2em;
 }
 
 
@@ -201,13 +224,13 @@ footer {
 
 .footerp {
     font-size:1em;
+    margin: 0 auto;     
+    line-height: 2em;     
+    width: 100%;
 }
 
 .social {
     display: inline-block;
-    width: 100px;
-    height: 100px;
-    border-radius: 40%;
     border-color: white;
     /*background-color: green;*/
     background-size: 100%;
