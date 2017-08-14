@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway+Dots');
 
 html {
-    background: url("../images/brownwall.jpg")center center fixed;
+    background: #2F2D2E;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -42,11 +42,7 @@ nav a:hover {
     flex-wrap: wrap;
 }
 
-.grid-cell {
-    flex: 1;
-   
 
-}
 
 .banner {
     margin-top: -30px;
@@ -68,6 +64,7 @@ nav a:hover {
 .grid-cell {
     flex: 1;
     margin-bottom: 3.3%;
+    padding-right:2%;
 }
 
 .items {
@@ -150,13 +147,9 @@ p {
 }
 
 .myslides{
-    width:85%;
+    height:400px;
 }
 
-.mydiv{
-    display:flex;
-    flex-wrap: wrap;
-}
 .order {
     width: 80%;
     margin: auto;
@@ -280,9 +273,7 @@ footer {
         justify-content: center;
     }
     
-    .grid{
-        padding-left:1.5%;
-    }
+   
 
     body {
         /*padding:7%;*/
