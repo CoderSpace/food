@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway+Dots');
 
 html {
-    background: url("../images/whiter.jpeg")center center fixed;
+    background: #2F2D2E;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 100%;
+    color:white;
 }
 
 nav {
@@ -35,16 +36,13 @@ nav a:hover {
 
 .grid {
     display: flex;
-    padding-left: 8%;
+    padding-left: 5.6%;
     padding-top: 3%;
     padding-bottom: 3%;
     flex-wrap: wrap;
 }
 
-.grid-cell {
-    flex: 1;
 
-}
 
 .banner {
     margin-top: -30px;
@@ -60,12 +58,13 @@ nav a:hover {
 }
 
 .active a {
-    color: mediumpurple;
+    color: white;
 }
 
 .grid-cell {
     flex: 1;
     margin-bottom: 3.3%;
+    padding-right:2%;
 }
 
 .items {
@@ -150,9 +149,10 @@ p {
     display: block;
 }
 
-.myslides {
-    width: 40%;
+.myslides{
+    height:400px;
 }
+
 .order {
     width: 80%;
     margin: auto;
@@ -184,11 +184,6 @@ footer {
 
 
 
-.menu{
-    flex-direction:column;
-    justify-content:center;
-}
-
 .order {
     width: 100%;
     margin: auto;
@@ -198,11 +193,14 @@ footer {
     padding: 7% !important;
 }
 
-}
 
 
 .footerh1 {
     font-size: 2em;
+}
+
+.footerp {
+    font-size:1em;
 }
 
 .social {
@@ -242,12 +240,14 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     margin: auto;
+    
 }
 
 
 @media (max-width: 700px) {
     .foot {
         flex-direction:row;
+        /*padding-top:2e;*/
     }
     .nav-toggle {
         display: block;
@@ -267,12 +267,16 @@ footer {
         display: block;
     }
 
+.slideshow{
+    display:none;
+}
 
     .menu {
         flex-direction: column;
         justify-content: center;
-
     }
+    
+   
 
     body {
         /*padding:7%;*/
@@ -298,7 +302,9 @@ footer {
     }
     .icons {
         width: 100%;
+        order:3;
     }
+    
 }
 
 
