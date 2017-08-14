@@ -140,6 +140,9 @@ p {
 
 .nav-toggle {
     display: none;
+    border: none;
+    background: none;
+    color: white;
 }
 
 .cater {
