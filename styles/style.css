@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway+Dots');
 
 html {
-    background: #2F2D2E;
+    background:#7C7C74;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -42,7 +42,7 @@ nav a:hover {
     padding-left: 5.6%;
     padding-top: 3%;
     padding-bottom: 3%;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 
@@ -91,7 +91,10 @@ nav a:hover {
     margin: auto;
 }
 
-
+.hero{
+    height:70%;
+    display:flex;
+}
 
 
 body {
@@ -131,14 +134,7 @@ h2 {
     color: white;
 }
 
-p {
-    font-size: 1.3em;
-    text-align: center;
-    color: white;
-    font-family: 'Yantramanav', sans-serif;
-    width: 40%;
-    margin: auto;
-}
+
 
 .nav-toggle {
     display: none;
@@ -267,7 +263,7 @@ td .time {
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     .foot {
         flex-direction:row;
         /*padding-top:2e;*/
@@ -275,6 +271,9 @@ td .time {
     .nav-toggle {
         display: block;
 
+    }
+    .grid{
+        flex-wrap:wrap;
     }
     li {
         display: block;
@@ -453,7 +452,7 @@ button {
     box-sizing: border-box;
     /*border-radius: 5%;*/
     overflow: hidden;
-    height: 600px;
+    /*height: 600px;*/
     width: 50%;
 }
 
@@ -509,3 +508,10 @@ main {
     text-decoration: none !important;
 }
 
+.map-button-link {
+    text-decoration: none;
+}
+
+.fa {
+    margin-right: 3px;
+}
