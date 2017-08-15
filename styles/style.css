@@ -91,7 +91,10 @@ nav a:hover {
     margin: auto;
 }
 
-
+.hero{
+    height:70%;
+    display:flex;
+}
 
 
 body {
@@ -131,14 +134,7 @@ h2 {
     color: white;
 }
 
-p {
-    font-size: 1.3em;
-    text-align: center;
-    color: white;
-    font-family: 'Yantramanav', sans-serif;
-    width: 40%;
-    margin: auto;
-}
+
 
 .nav-toggle {
     display: none;
@@ -267,7 +263,7 @@ td .time {
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     .foot {
         flex-direction:row;
         /*padding-top:2e;*/
