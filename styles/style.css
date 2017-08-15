@@ -453,7 +453,7 @@ button {
     box-sizing: border-box;
     /*border-radius: 5%;*/
     overflow: hidden;
-    height: 600px;
+    /*height: 600px;*/
     width: 50%;
 }
 
@@ -509,3 +509,10 @@ main {
     text-decoration: none !important;
 }
 
+.map-button-link {
+    text-decoration: none;
+}
+
+.fa {
+    margin-right: 3px;
+}
