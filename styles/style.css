@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway+Dots');
 
 html {
+
     background: white;
+
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -42,7 +44,7 @@ nav a:hover {
     padding-left: 5.6%;
     padding-top: 3%;
     padding-bottom: 3%;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 
@@ -91,7 +93,10 @@ nav a:hover {
     margin: auto;
 }
 
-
+.hero{
+    height:70%;
+    display:flex;
+}
 
 
 body {
@@ -131,14 +136,7 @@ h2 {
     color: white;
 }
 
-p {
-    font-size: 1.3em;
-    text-align: center;
-    color: white;
-    font-family: 'Yantramanav', sans-serif;
-    width: 40%;
-    margin: auto;
-}
+
 
 .nav-toggle {
     display: none;
@@ -268,7 +266,7 @@ td .time {
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     .foot {
         flex-direction:row;
         /*padding-top:2e;*/
@@ -276,6 +274,9 @@ td .time {
     .nav-toggle {
         display: block;
 
+    }
+    .grid{
+        flex-wrap:wrap;
     }
     li {
         display: block;
@@ -467,6 +468,7 @@ iframe {
 
 .line {
     border-bottom: 2px solid ;
+
 } 
 @media  (max-width : 700px){
 
@@ -512,6 +514,25 @@ main {
     text-decoration: none !important;
 }
 
+<<<<<<< HEAD
+.salad {
+    display: block;
+    margin: 0 auto;
+    width:85%;
+    height: 5%;
+    padding-bottom:15px;
+    
+    
+}
+
+.contact{
+    display: inline-block;
+    margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+ 
+}
+=======
 .map-button-link {
     text-decoration: none;
 }
@@ -527,3 +548,4 @@ main {
 .fa-facebook-square {
     color: white;
 }
+>>>>>>> eeb20f4ec7d107ca8388d438ac21e4667a720ff6
