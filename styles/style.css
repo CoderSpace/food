@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway+Dots');
 
 html {
-    background: #2F2D2E;
+
+    background: white;
+
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 100%;
-    color:white;
+    color:black;
 }
 
 nav {
@@ -19,7 +21,7 @@ nav {
     position: fixed;
     width: 100%;
     z-index: 1;
-    background-color:black;
+    background-color: #FF6302;
     box-shadow:0 0 20px 0;
 }
 
@@ -42,7 +44,7 @@ nav a:hover {
     padding-left: 5.6%;
     padding-top: 3%;
     padding-bottom: 3%;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 
@@ -91,7 +93,10 @@ nav a:hover {
     margin: auto;
 }
 
-
+.hero{
+    height:70%;
+    display:flex;
+}
 
 
 body {
@@ -102,7 +107,7 @@ body {
 
 nav a {
     text-decoration: none;
-    color: gray;
+    color: black;
     padding: 2%;
     font-family: 'Yantramanav', sans-serif;
 }
@@ -131,14 +136,7 @@ h2 {
     color: white;
 }
 
-p {
-    font-size: 1.3em;
-    text-align: center;
-    color: white;
-    font-family: 'Yantramanav', sans-serif;
-    width: 40%;
-    margin: auto;
-}
+
 
 .nav-toggle {
     display: none;
@@ -167,7 +165,7 @@ footer {
     flex-wrap: wrap;
     border-top: solid 4px white;
     margin: 0%;
-    background-color:black;
+    background-color:grey;
     bottom: 0;
     color: white;
     /*position:absolute;*/
@@ -267,7 +265,7 @@ td .time {
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     .foot {
         flex-direction:row;
         /*padding-top:2e;*/
@@ -275,6 +273,9 @@ td .time {
     .nav-toggle {
         display: block;
 
+    }
+    .grid{
+        flex-wrap:wrap;
     }
     li {
         display: block;
@@ -339,7 +340,8 @@ footer a {
 }
 
 footer a:hover {
-    color: white;
+    font-size: 1.5em;
+    /*box-shadow: 10px 10px 5px black;*/
 }
 
 table {
@@ -435,6 +437,7 @@ button {
     width:70%;
     margin: auto;
     /*border-width: 100%;*/
+    text-align: center;
 }
 
 .info {
@@ -453,7 +456,7 @@ button {
     box-sizing: border-box;
     /*border-radius: 5%;*/
     overflow: hidden;
-    height: 600px;
+    /*height: 600px;*/
     width: 50%;
 }
 
@@ -510,6 +513,7 @@ main {
     text-decoration: none !important;
 }
 
+<<<<<<< HEAD
 .salad {
     display: block;
     margin: 0 auto;
@@ -527,3 +531,20 @@ main {
   text-align:center;
  
 }
+=======
+.map-button-link {
+    text-decoration: none;
+}
+
+.fa {
+    margin-right: 2px;
+}
+
+.fa-twitter-square {
+    color: white;
+}
+
+.fa-facebook-square {
+    color: white;
+}
+>>>>>>> eeb20f4ec7d107ca8388d438ac21e4667a720ff6
