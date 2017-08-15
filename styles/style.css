@@ -142,6 +142,9 @@ p {
 
 .nav-toggle {
     display: none;
+    border: none;
+    background: none;
+    color: white;
 }
 
 .cater {
@@ -409,8 +412,8 @@ button {
 
 .locate {
     display: flex;   
-    border: 2px solid;
-    background-color: rgba(0, 0, 0, 0.6);
+    /*border: 2px solid;*/
+    /*background-color: rgba(0, 0, 0, 0.6);*/
     width: 75%;
     margin: auto;
     padding: 2%;
@@ -424,9 +427,9 @@ button {
     background-color: rgba(232,232,232, 0.5);
 }
 
-/*.1871 {*/
-    
-/*}*/
+.seven {
+    font-size: 1.5em;
+}
 
 .l {
     width:70%;
@@ -440,7 +443,7 @@ button {
     color: black;
     text-align: left;
     margin-left: 1em;
-    font-size: 2em;
+    font-size: 1.3em;
     margin-bottom: 5em;
     line-height: 1.5em;
 }
@@ -460,7 +463,7 @@ iframe {
 }
 
 .line {
-    border-bottom: 2px dashed ;
+    border-bottom: 2px solid ;
 } 
 @media  (max-width : 700px){
 
@@ -475,12 +478,13 @@ iframe {
 }
 .locate{
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
+    /*background-color: rgba(0, 0, 0, 0.6);*/
     margin-top: 2em;
 }
 
 .map-button {
     margin-bottom: 1em;
+    white-space: nowrap;
 }
 
 main {
@@ -488,6 +492,7 @@ main {
 }
 
 }
+
 
 .map-button {
     background-color: grey;
@@ -499,6 +504,8 @@ main {
     margin-right: auto;
     margin-top: 1.5em;
     border-radius: 5%;
+    white-space: nowrap;
+    color: white;
+    text-decoration: none !important;
 }
-
 
