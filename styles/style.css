@@ -464,6 +464,7 @@ iframe {
 
 .line {
     border-bottom: 2px solid ;
+
 } 
 @media  (max-width : 700px){
 
@@ -509,3 +510,20 @@ main {
     text-decoration: none !important;
 }
 
+.salad {
+    display: block;
+    margin: 0 auto;
+    width:85%;
+    height: 5%;
+    padding-bottom:15px;
+    
+    
+}
+
+.contact{
+    display: inline-block;
+    margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+ 
+}
