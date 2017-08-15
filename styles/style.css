@@ -36,9 +36,6 @@ nav a:hover {
     color: white;
 }
 
-
-
-
 .grid {
     display: flex;
     padding-left: 5.6%;
@@ -46,8 +43,6 @@ nav a:hover {
     padding-bottom: 3%;
     flex-wrap: nowrap;
 }
-
-
 
 .banner {
     margin-top: -30px;
@@ -87,8 +82,6 @@ nav a:hover {
     margin-top: .8%;
 }
 
-
-
 .space {
     margin: auto;
 }
@@ -97,7 +90,6 @@ nav a:hover {
     height:70%;
     display:flex;
 }
-
 
 body {
     margin: 0%;
@@ -135,8 +127,6 @@ h2 {
     font-size: 3em;
     color: white;
 }
-
-
 
 .nav-toggle {
     display: none;
@@ -202,8 +192,6 @@ td .time {
     order: 1;
     line-height:2em;
 }
-
-
 
 .order {
     width: 100%;
@@ -331,9 +319,6 @@ td .time {
     
 }
 
-
-
-
 footer a {
     color: grey;
     text-decoration: none;
@@ -402,9 +387,6 @@ button {
     height: 10%;
     width: 10%;
 }
-
-
-
 
 .noI {
     width: 70%;
@@ -497,7 +479,6 @@ main {
 
 }
 
-
 .map-button {
     background-color: grey;
     width: 82px;
@@ -513,25 +494,32 @@ main {
     text-decoration: none !important;
 }
 
-<<<<<<< HEAD
 .salad {
     display: block;
     margin: 0 auto;
-    width:85%;
+    width:100s%;
     height: 5%;
-    padding-bottom:15px;
-    
-    
-}
+    padding-bottom:2%;
+    }
 
-.contact{
+.contacts{
     display: inline-block;
     margin-left:auto;
   margin-right:auto;
   text-align:center;
- 
+  font-weight: bold;
+  text-decoration: underline;
+  color: mediumblue;
+  display: block;
+    margin: 0 auto; 
+  font-size: larger; 
 }
-=======
+
+.contacts:hover{
+    color: grey;
+    
+}
+
 .map-button-link {
     text-decoration: none;
 }
@@ -547,4 +535,9 @@ main {
 .fa-facebook-square {
     color: white;
 }
->>>>>>> eeb20f4ec7d107ca8388d438ac21e4667a720ff6
+
+.texts{
+    word-spacing: 5px;
+    text-align: center;
+    line-height: 30px;
+}
