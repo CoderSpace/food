@@ -467,6 +467,7 @@ iframe {
 
 .line {
     border-bottom: 2px solid ;
+
 } 
 @media  (max-width : 700px){
 
@@ -512,6 +513,25 @@ main {
     text-decoration: none !important;
 }
 
+<<<<<<< HEAD
+.salad {
+    display: block;
+    margin: 0 auto;
+    width:85%;
+    height: 5%;
+    padding-bottom:15px;
+    
+    
+}
+
+.contact{
+    display: inline-block;
+    margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+ 
+}
+=======
 .map-button-link {
     text-decoration: none;
 }
@@ -527,3 +547,4 @@ main {
 .fa-facebook-square {
     color: white;
 }
+>>>>>>> eeb20f4ec7d107ca8388d438ac21e4667a720ff6
