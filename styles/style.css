@@ -145,6 +145,7 @@ p {
     border: none;
     background: none;
     color: white;
+    margin-bottom: 13px;
 }
 
 .cater {
@@ -353,7 +354,7 @@ table {
 
 main {
 
-    padding-top:6.5em;
+    padding-top:7.5em;
     padding-bottom:4%;
     width: 80%;
     margin: auto;
@@ -490,7 +491,7 @@ iframe {
 }
 
 main {
-    padding-top:2em;
+    padding-top:em;
 }
 
 }
