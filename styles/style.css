@@ -552,8 +552,9 @@ main {
 .fa-facebook-square {
     color: white;
 }
-
+ 
+ 
 
 .mapinfo__location-adress {
-    border-bottom: solid;
+    border-bottom: 2px solid;
 }
