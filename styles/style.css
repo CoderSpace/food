@@ -277,6 +277,9 @@ td .time {
     .grid{
         flex-wrap:wrap;
     }
+    .grid-cell{
+        flex-wrap:wrap;
+    }
     li {
         display: block;
         padding-top: 25px;
@@ -493,7 +496,8 @@ iframe {
 main {
     padding-top:2em;
 }
-
+.grid{
+    flex-direction:column;
 }
 
 
