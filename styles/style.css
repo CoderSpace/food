@@ -70,6 +70,8 @@ nav a:hover {
     flex: 1;
     margin-bottom: 3.3%;
     padding-right:2%;
+    display:block;
+    margin:auto;
 }
 
 .items {
@@ -214,7 +216,9 @@ td .time {
     padding: 7% !important;
 }
 
-
+.sight{
+    display:none;
+}
 
 .footerh1 {
     font-size: 2em;
@@ -303,7 +307,9 @@ td .time {
         justify-content: center;
     }
     
-   
+   .sight{
+       display:block;
+   }
 
     body {
         /*padding:7%;*/
@@ -499,8 +505,9 @@ main {
 .grid{
     flex-direction:column;
 }
-
-
+.sight{
+    display:block;
+}
 .map-button {
     background-color: grey;
     width: 82px;
