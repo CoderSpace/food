@@ -168,10 +168,8 @@ footer {
     background-color:grey;
     bottom: 0;
     color: white;
-    /*position:absolute;*/
     width: 100%;
     justify-content: space-around;
-
 }
 
 .day {
@@ -216,11 +214,11 @@ td .time {
     display:none;
 }
 
-.footerh1 {
+.footer h1 {
     font-size: 2em;
 }
 
-.footerp {
+.footer p {
     font-size:1em;
     margin: 0 auto;     
     line-height: 2em;     
@@ -236,6 +234,7 @@ td .time {
     overflow: hidden;
     text-decoration: none;
     padding: 0;
+    color:white;
 }
 
 .icons {
@@ -557,10 +556,10 @@ main {
 
 .mapinfo__location-adress {
     border-bottom: solid;
+}
 
 .texts{
     word-spacing: 5px;
     text-align: center;
     line-height: 30px;
-
 }
