@@ -23,21 +23,20 @@ nav {
     z-index: 1;
     background-color: #FF6302;
     box-shadow:0 0 20px 0;
+    font-size:150%;
+    font-weight:bold;
 }
 
 nav a {
     text-decoration: none;
-    color: tomato;
     padding: 2%;
+    
     font-family: 'Yantramanav', sans-serif;
 }
 
 nav a:hover {
     color: white;
 }
-
-
-
 
 .grid {
     display: flex;
@@ -46,8 +45,6 @@ nav a:hover {
     padding-bottom: 3%;
     flex-wrap: nowrap;
 }
-
-
 
 .banner {
     margin-top: -30px;
@@ -70,6 +67,8 @@ nav a:hover {
     flex: 1;
     margin-bottom: 3.3%;
     padding-right:2%;
+    display:block;
+    margin:auto;
 }
 
 .items {
@@ -92,8 +91,6 @@ nav a:hover {
 /*    color:white;*/
 /*}*/
 
-
-
 .space {
     margin: auto;
 }
@@ -102,7 +99,6 @@ nav a:hover {
     height:70%;
     display:flex;
 }
-
 
 body {
     margin: 0%;
@@ -141,8 +137,6 @@ h2 {
     color: white;
 }
 
-
-
 .nav-toggle {
     display: none;
     border: none;
@@ -174,10 +168,8 @@ footer {
     background-color:grey;
     bottom: 0;
     color: white;
-    /*position:absolute;*/
     width: 100%;
     justify-content: space-around;
-
 }
 
 .day {
@@ -209,8 +201,6 @@ td .time {
     line-height:2em;
 }
 
-
-
 .order {
     width: 100%;
     margin: auto;
@@ -220,13 +210,15 @@ td .time {
     padding: 7% !important;
 }
 
+.sight{
+    display:none;
+}
 
-
-.footerh1 {
+.footer h1 {
     font-size: 2em;
 }
 
-.footerp {
+.footer p {
     font-size:1em;
     margin: 0 auto;     
     line-height: 2em;     
@@ -242,6 +234,7 @@ td .time {
     overflow: hidden;
     text-decoration: none;
     padding: 0;
+    color:white;
 }
 
 .icons {
@@ -283,6 +276,9 @@ td .time {
     .grid{
         flex-wrap:wrap;
     }
+    .grid-cell{
+        flex-wrap:wrap;
+    }
     li {
         display: block;
         padding-top: 25px;
@@ -306,7 +302,9 @@ td .time {
         justify-content: center;
     }
     
-   
+   .sight{
+       display:block;
+   }
 
     body {
         /*padding:7%;*/
@@ -336,9 +334,6 @@ td .time {
     }
     
 }
-
-
-
 
 footer a {
     color: grey;
@@ -404,9 +399,6 @@ button {
     height: 10%;
     width: 10%;
 }
-
-
-
 
 .noI {
     width: 70%;
@@ -499,9 +491,13 @@ iframe {
 main {
     padding-top:em;
 }
-
+.grid{
+    flex-direction:column;
 }
 
+.sight{
+    display:block;
+}
 
 .map-button {
     background-color: #357AE8;
@@ -522,19 +518,22 @@ main {
 .salad {
     display: block;
     margin: 0 auto;
-    width:85%;
+    width:100%;
     height: 5%;
-    padding-bottom:15px;
-    
-    
-}
+    padding-bottom:2%;
+    }
 
-.contact{
+.contacts{
     display: inline-block;
     margin-left:auto;
   margin-right:auto;
   text-align:center;
- 
+  font-weight: bold;
+  text-decoration: underline;
+  color: mediumblue;
+  display: block;
+    margin: 0 auto; 
+  font-size: larger; 
 }
 
 .map-button-link {
@@ -555,6 +554,15 @@ main {
  
  
 
+
 .mapinfo__location-adress {
     border-bottom: 2px solid;
+
+}
+
+.texts{
+    word-spacing: 5px;
+    text-align: center;
+    line-height: 30px;
+
 }
