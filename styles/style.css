@@ -87,6 +87,11 @@ nav a:hover {
     margin-top: .8%;
 }
 
+p {
+    text-align:center;
+    color:white;
+}
+
 
 
 .space {
@@ -340,10 +345,6 @@ footer a {
     text-decoration: none;
 }
 
-footer a:hover {
-    font-size: 1.5em;
-    /*box-shadow: 10px 10px 5px black;*/
-}
 
 table {
     margin-left: auto;
@@ -426,8 +427,11 @@ button {
     border: 2px solid;
     box-sizing: border-box;
     /*border-radius: 5%;*/
-    width: 50%;
+    width: 30%;
     background-color: rgba(232,232,232, 0.5);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .seven {
@@ -435,10 +439,10 @@ button {
 }
 
 .l {
-    width:70%;
+    width:80%;
     margin: auto;
     /*border-width: 100%;*/
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .info {
@@ -458,7 +462,7 @@ button {
     /*border-radius: 5%;*/
     overflow: hidden;
     /*height: 600px;*/
-    width: 50%;
+    width: 70%;
 }
 
 iframe {
@@ -501,12 +505,13 @@ main {
 
 .map-button {
     background-color: #357AE8;
-    width: 82px;
+    /*width: 82px;*/
     /*margin-left: 1.5em;*/
     padding: 1em;
     border: solid 2px;
-    margin-left: auto;
-    margin-right: auto;
+    display: inline-block;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
     margin-top: 1.5em;
     border-radius: 8px;
     white-space: nowrap;
@@ -514,7 +519,6 @@ main {
     text-decoration: none !important;
 }
 
-<<<<<<< HEAD
 .salad {
     display: block;
     margin: 0 auto;
@@ -532,7 +536,7 @@ main {
   text-align:center;
  
 }
-=======
+
 .map-button-link {
     text-decoration: none;
 }
@@ -548,4 +552,8 @@ main {
 .fa-facebook-square {
     color: white;
 }
->>>>>>> eeb20f4ec7d107ca8388d438ac21e4667a720ff6
+
+
+.mapinfo__location-adress {
+    border-bottom: solid;
+}
