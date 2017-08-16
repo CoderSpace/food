@@ -86,10 +86,10 @@ nav a:hover {
     margin-top: .8%;
 }
 
-p {
-    text-align:center;
-    color:white;
-}
+/*p {*/
+/*    text-align:center;*/
+/*    color:white;*/
+/*}*/
 
 .space {
     margin: auto;
@@ -551,15 +551,18 @@ main {
 .fa-facebook-square {
     color: white;
 }
-
+ 
+ 
 
 
 .mapinfo__location-adress {
-    border-bottom: solid;
+    border-bottom: 2px solid;
+
 }
 
 .texts{
     word-spacing: 5px;
     text-align: center;
     line-height: 30px;
+
 }
