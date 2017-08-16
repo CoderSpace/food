@@ -23,21 +23,20 @@ nav {
     z-index: 1;
     background-color: #FF6302;
     box-shadow:0 0 20px 0;
+    font-size:150%;
+    font-weight:bold;
 }
 
 nav a {
     text-decoration: none;
-    color: tomato;
     padding: 2%;
+    
     font-family: 'Yantramanav', sans-serif;
 }
 
 nav a:hover {
     color: white;
 }
-
-
-
 
 .grid {
     display: flex;
@@ -46,8 +45,6 @@ nav a:hover {
     padding-bottom: 3%;
     flex-wrap: nowrap;
 }
-
-
 
 .banner {
     margin-top: -30px;
@@ -89,8 +86,6 @@ nav a:hover {
     margin-top: .8%;
 }
 
-
-
 .space {
     margin: auto;
 }
@@ -99,7 +94,6 @@ nav a:hover {
     height:70%;
     display:flex;
 }
-
 
 body {
     margin: 0%;
@@ -138,13 +132,12 @@ h2 {
     color: white;
 }
 
-
-
 .nav-toggle {
     display: none;
     border: none;
     background: none;
     color: white;
+    margin-bottom: 13px;
 }
 
 .cater {
@@ -204,8 +197,6 @@ td .time {
     order: 1;
     line-height:2em;
 }
-
-
 
 .order {
     width: 100%;
@@ -340,9 +331,6 @@ td .time {
     
 }
 
-
-
-
 footer a {
     color: grey;
     text-decoration: none;
@@ -363,7 +351,7 @@ table {
 
 main {
 
-    padding-top:6.5em;
+    padding-top:7.5em;
     padding-bottom:4%;
     width: 80%;
     margin: auto;
@@ -411,9 +399,6 @@ button {
     height: 10%;
     width: 10%;
 }
-
-
-
 
 .noI {
     width: 70%;
@@ -476,6 +461,7 @@ iframe {
 
 .line {
     border-bottom: 2px solid ;
+
 } 
 @media  (max-width : 700px){
 
@@ -500,16 +486,18 @@ iframe {
 }
 
 main {
-    padding-top:2em;
+    padding-top:em;
 }
 .grid{
     flex-direction:column;
 }
+
 .sight{
     display:block;
 }
+
 .map-button {
-    background-color: grey;
+    background-color: #357AE8;
     width: 82px;
     /*margin-left: 1.5em;*/
     padding: 1em;
@@ -517,10 +505,36 @@ main {
     margin-left: auto;
     margin-right: auto;
     margin-top: 1.5em;
-    border-radius: 5%;
+    border-radius: 8px;
     white-space: nowrap;
     color: white;
     text-decoration: none !important;
+}
+
+.salad {
+    display: block;
+    margin: 0 auto;
+    width:100%;
+    height: 5%;
+    padding-bottom:2%;
+    }
+
+.contacts{
+    display: inline-block;
+    margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  font-weight: bold;
+  text-decoration: underline;
+  color: mediumblue;
+  display: block;
+    margin: 0 auto; 
+  font-size: larger; 
+}
+
+.contacts:hover{
+    color: grey;
+    
 }
 
 .map-button-link {
@@ -537,4 +551,10 @@ main {
 
 .fa-facebook-square {
     color: white;
+}
+
+.texts{
+    word-spacing: 5px;
+    text-align: center;
+    line-height: 30px;
 }
