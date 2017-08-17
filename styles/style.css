@@ -307,8 +307,8 @@ td .time {
        display:block;
    }
 
-    body {
-        /*padding:7%;*/
+    main{
+        padding-top:7%;
     }
 
     main {
