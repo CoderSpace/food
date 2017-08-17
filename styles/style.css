@@ -342,44 +342,6 @@ td .time {
     order:3;
   }
 
-
-    .menu {
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-   .sight{
-       display:block;
-   }
-
-    main{
-        padding-top:7%;
-    }
-
-    main {
-        padding: 7%;
-    }
-    .cmedia {
-        padding: 7%;
-
-    }
-
-
-    footer {
-        /*flex-direction:column;*/
-    }
-    .contact {
-        width: 100%;
-    }
-    .hours {
-        width: 100%;
-    }
-    .icons {
-        width: 100%;
-        order:3;
-    }
-    
-
 }
 
 footer a {
